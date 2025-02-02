@@ -1,46 +1,89 @@
-# Getting Started with Create React App
+# Quiz App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple quiz application built using **React** and **TypeScript** with state management using **React Query** and a beautiful UI powered by **Mantine**.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Dynamic quiz with multiple questions and options
+- Timer functionality to track quiz time
+- Score calculation with correct and incorrect answer handling
+- Navigation between questions with **Next** and **Finish** buttons
+- UI with Mantine components
 
-### `yarn start`
+## Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **React** - Library for building the UI
+- **TypeScript** - Ensures type safety
+- **Axios** - Used for API requests
+- **React Query** - Efficient data fetching and caching
+- **Mantine** - UI components for styling
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Components
 
-### `yarn test`
+### 1. **Header Component**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Displays the title of the quiz.
 
-### `yarn build`
+### 2. **Start Screen & Finish Component**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Start screen allows users to begin the quiz.
+- Finish screen shows the final score and provides an option to restart.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 3. **Question Component**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Displays a question with multiple answer options.
+- Highlights correct and incorrect answers.
+- Includes **Next** and **Finish** buttons for navigation.
 
-### `yarn eject`
+### 4. **Top Container Component**
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Displays the **Timer**, **Question Count**, and **Score**.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 5. **Timer Component**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Countdown timer to track quiz duration.
+- Automatically ends the quiz when time runs out.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Screenshots
 
-## Learn More
+### Start Screen
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Start Screen](https://i.ibb.co/Y7MQRtXq/start-screen.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Question Component
+
+![Question Component](https://i.ibb.co/pjFNT8xv/question-component.png)
+
+### Correct Answer Highlight
+
+![Correct Answer](https://i.ibb.co/5Ws7xTYk/correct-answer.png)
+
+### Incorrect Answer Highlight
+
+![Incorrect Answer](https://i.ibb.co/tpPjMYdS/incorrect-answer.png)
+
+### Finish Screen
+
+![Finish Screen](https://i.ibb.co/DHpnK5wj/finish-screen.png)
+
+## Getting Started
+
+### Installation
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/quiz-app.git
+   cd quiz-app
+   ```
+2. Install dependencies:
+   ```sh
+   yarn install
+   ```
+
+### Running the App
+
+Start the development server:
+
+```sh
+yarn start
+```
