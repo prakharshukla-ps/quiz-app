@@ -66,6 +66,11 @@ A simple quiz application built using **React** and **TypeScript** with state ma
 
 ![Finish Screen](https://i.ibb.co/DHpnK5wj/finish-screen.png)
 
+## Video Demo
+
+Watch a demo of the app in action:  
+🔗 [Quiz App Demo](https://vimeo.com/1052720057/3239a56fa9)
+
 ## Getting Started
 
 ### Installation
