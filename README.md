@@ -72,7 +72,7 @@ A simple quiz application built using **React** and **TypeScript** with state ma
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/quiz-app.git
+   git clone https://github.com/prakharshukla-ps/quiz-app.git
    cd quiz-app
    ```
 2. Install dependencies:
